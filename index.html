@@ -27,6 +27,7 @@
 </head>
 
 <body>
+    <!-- navbar section starts -->
     <nav class="bg-yellow-100 sticky top-0 z-10">
         <div class="navbar w-11/12 mx-auto mb-24">
             <div class="navbar-start">
@@ -45,12 +46,15 @@
             </div>
         </div>
     </nav>
+    <!-- card section starts -->
     <main>
+        
         <section class="w-11/12 mx-auto bg-gray-50">
             <div class="flex justify-center mb-12">
                 <button class="btn bg-[#B4F461] font-bold mx-3">Donation</button>
                 <button class="btn">History</button>
             </div>
+            <!-- card- 1 -->
             <div class="card grid grid-cols-2 bg-base-100 mb-10">
                 <figure>
                     <img src="./assets/noakhali.png" alt="Album" />
@@ -73,15 +77,16 @@
                     </div>
                     <input type="text" placeholder="Write Donation Amount" class="p-3 mb-4 rounded-xl">
                     <div class="card-actions">
-                        <!-- Open the modal using ID.showModal() method -->
-                        <button class="btn" onclick="my_modal_1.showModal()">Donate Now</button>
+                        <button class="btn bg-[#B4F461] w-full font-bold" onclick="my_modal_1.showModal()">Donate Now</button>
                         <dialog id="my_modal_1" class="modal">
-                            <div class="modal-box">
-                                <h3 class="text-lg font-bold">Hello!</h3>
-                                <p class="py-4">Press ESC key or click the button below to close</p>
-                                <div class="modal-action">
-                                    <form method="dialog">
-                                        <!-- if there is a button in form, it will close the modal -->
+                            <div class="modal-box text-center">
+                                <h3 class="text-2xl font-bold">Congrates !</h3>
+                                <img class="mx-auto mt-5" src="./assets/coin.png" alt="">
+                                <p class="py-4 text-gray-500">You Have Donated for Humankind</p>
+                                <h3 class="text-lg font-semibold text">Successfully</h3>
+                                <div class="modal-action flex justify-center">
+                                    <form method="dialog" class="">
+                                    
                                         <button class="btn">close confirmation</button>
                                     </form>
                                 </div>
@@ -90,6 +95,7 @@
                     </div>
                 </div>
             </div>
+            <!-- card- 2 -->
             <div class="card grid grid-cols-2 bg-base-100 mb-10">
                 <figure>
                     <img src="./assets/feni.png" alt="Album" />
@@ -114,10 +120,25 @@
                     </div>
                     <input type="text" placeholder="Write Donation Amount" class="p-3 mb-4 rounded-xl">
                     <div class="card-actions">
-                        <button class="btn bg-[#B4F461] w-full font-bold">Donate Now</button>
+                        <button class="btn bg-[#B4F461] w-full font-bold" onclick="my_modal_2.showModal()">Donate Now</button>
+                        <dialog id="my_modal_2" class="modal">
+                            <div class="modal-box text-center">
+                                <h3 class="text-2xl font-bold">Congrates !</h3>
+                                <img class="mx-auto mt-5" src="./assets/coin.png" alt="">
+                                <p class="py-4 text-gray-500">You Have Donated for Humankind</p>
+                                <h3 class="text-lg font-semibold text">Successfully</h3>
+                                <div class="modal-action flex justify-center">
+                                    <form method="dialog">
+                                    
+                                        <button class="btn">close confirmation</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </dialog>
                     </div>
                 </div>
             </div>
+            <!-- card- 3 -->
             <div class="card grid grid-cols-2 bg-base-100">
                 <figure>
                     <img src="./assets/quota-protest.png" alt="Album" />
@@ -143,7 +164,21 @@
                     </div>
                     <input type="text" placeholder="Write Donation Amount" class="p-3 mb-4 rounded-xl">
                     <div class="card-actions">
-                        <button class="btn bg-[#B4F461] w-full font-bold">Donate Now</button>
+                        <button class="btn bg-[#B4F461] w-full font-bold" onclick="my_modal_3.showModal()">Donate Now</button>
+                        <dialog id="my_modal_3" class="modal">
+                            <div class="modal-box text-center">
+                                <h3 class="text-2xl font-bold">Congrates !</h3>
+                                <img class="mx-auto mt-5" src="./assets/coin.png" alt="">
+                                <p class="py-4 text-gray-500">You Have Donated for Humankind</p>
+                                <h3 class="text-lg font-semibold text">Successfully</h3>
+                                <div class="modal-action flex justify-center">
+                                    <form method="dialog">
+                                    
+                                        <button class="btn">close confirmation</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </dialog>
                     </div>
                 </div>
             </div>
